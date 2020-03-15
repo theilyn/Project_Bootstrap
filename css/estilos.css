@@ -24,10 +24,10 @@ body{
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffffff;
+  color: #000000;
 }
 .navbar-default .navbar-text {
-  color: #ecf0f1;
+  color: #000000;
 }
 .navbar-default .navbar-nav > li > a {
   color: #ecf0f1;
@@ -56,7 +56,7 @@ body{
   background-color: #1486bb;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
+  background-color: #000000;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -96,12 +96,12 @@ body{
 }
 
 .breadcrumb a{
-  color:#333333;
+  color:#ffffff;
 }
 
 /* Progress Bars */
 .barra-progreso{
-  background:#333333;
+  background:#ffffff;
   color:#ffffff;
 }
 
@@ -138,3 +138,14 @@ body{
     background-color: #1486bb;
   }
 }
+{
+#check{
+  display: none;
+}
+.menu{
+      display: none;
+
+}
+
+  
+

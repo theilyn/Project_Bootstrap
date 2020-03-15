@@ -8,7 +8,7 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
-    <script src="http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
+   
   </head>
   <body>
 
@@ -31,18 +31,16 @@
             <li><a href="usuarios.html">Settings</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Welcome,User</a></li>
+            <li><a href="#">Welcome User</a></li>
             <li><a href="login.html">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
     <header id="header">
       <div class="container">
         <div class="row">
           <div class="col-md-10">
-            <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Control panel </h1>
           </div>
           <div class="col-md-2">
             <div class="dropdown crear">
@@ -82,19 +80,20 @@
 
                       </tr>
                       <tr>
-                        <td>Hazards Observed/Mitigated & Near Miss - Pipeline</td>
+                        
+                        <td><a href="table1.html">Hazards Observed/Mitigated & Near Miss - Pipeline </a></td>
                         <td>CRCT employees utilize this form to report hazards observed, hazards mitigated and near misses. If follow-up actions are necessary, action items are assigned to the appropriate personnel.     
 
                         </td>
                         <td>ACT</td>
                       </tr>
                       <tr>
-                        <td>Incident Report - Pipeline</td>
+                        <td><a href="table2.html">Report - Pipeline</a></td>
                         <td>               </td>
                         <td>ACT</td>
                       </tr>
                       <tr>
-                        <td>Safety Suggestion - Pipeline</td>
+                        <td><a href="table.html">Safety Suggestion - Pipeline</a></td>
                         <td>Safety suggestion for an improvement to a process, policy or procedure, suggested by employees. This form will be reviewed by area SCM peer group.</td>
                         <td>ACT</td>
                       </tr>
@@ -107,53 +106,15 @@
         </div>
       </div>
     </section>
+    <!-- Event Details -->
+    <div class="panel panel-default">
+        <div class="panel-heading main-color-bg">
+          <h3 class="panel-title">Vista Rápida</h3>
+        </div>
 
     <footer id="footer">
       <p>Copyright theilynsaballo, &copy; 2020</p>
     </footer>
-
-    <!-- Modals -->
-
-    <!-- Agregar página -->
-    <div class="modal fade" id="addPage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <form>
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Agregar Página</h4>
-      </div>
-      <div class="modal-body">
-        <div class="form-group">
-          <label>Título de Página</label>
-          <input type="text" class="form-control" placeholder="Título de la página">
-        </div>
-        <div class="form-group">
-          <label>Mensaje de Página</label>
-          <textarea name="editor1" class="form-control" placeholder="Información de la página"></textarea>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> Publicado
-          </label>
-        </div>
-        <div class="form-group">
-          <label>Palabras Clave</label>
-          <input type="text" class="form-control" placeholder="Agregar algunas palabras...">
-        </div>
-        <div class="form-group">
-          <label>Meta Descripción</label>
-          <input type="text" class="form-control" placeholder="Agregar una metadescripción...">
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Save changes</button>
-      </div>
-    </form>
-    </div>
-  </div>
-</div>
 
   <script>
      CKEDITOR.replace( 'editor1' );
@@ -165,4 +126,4 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
-</html>
+</html
